@@ -47,14 +47,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\DatabaseProcessing.cs" />
-    <Compile Include="Forms\Form1.cs">
+    <Compile Include="Forms\Khach.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Forms\Khach.Designer.cs">
+      <DependentUpon>Khach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HDBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HDBan.Designer.cs">
+      <DependentUpon>HDBan.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\HDBan.resx">
+      <DependentUpon>HDBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Khach.resx">
+      <DependentUpon>Khach.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace QuanLyBanHang
 {
-    public partial class Form1 : Form
+    public partial class frmKhachHang : Form
     {
-        public Form1()
+        public frmKhachHang()
         {
             InitializeComponent();
+        }
+
+        private void btnThem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
